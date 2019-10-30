@@ -1,0 +1,282 @@
+body a{
+    text-decoration: none;
+}
+header h1{/*ヘッダー*/
+    font-size:120%; /*フォントサイズの調整*/
+    color:#313131; /*文字色の変更*/
+    padding-top: 10px; /*文字上部に余白*/
+    padding-bottom: 10px; /*文字下部に余白*/
+    padding-left: 20px; /*文字左側に余白*/
+    padding-right: 20px; /*文字右側に余白*/
+    border:1px solid #313131; /*文字の周りに線を描く*/
+    letter-spacing: 3px; /*文字と文字の間隔をあける*/
+    font-weight:400; /*文字の太さの変更*/
+    background: #dbebf8;/*背景色*/
+    border-radius: 25px 25px 25px 25px;/*左側の角を丸く*/
+}
+/*写真*/
+#stage {
+    position: relative;
+    max-width:400px;
+    margin: 0 auto;
+    background:#ddd;
+}
+.pic {
+    position: absolute;
+}
+.pic img {
+    width: 100%;
+    height: auto;
+    opacity:0;
+    -moz-animation: imgTrans 30s infinite;
+    -webkit-animation: imgTrans 30s ease-in infinite;
+    animation: imgTrans 30s infinite;
+}
+#photo1 img {
+    -moz-animation-delay: 0s;
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
+}
+#photo2 img {
+    -moz-animation-delay: 6s;
+    -webkit-animation-delay: 6s;
+    animation-delay: 6s;
+}
+#photo3 img {
+    -moz-animation-delay: 12s;
+    -webkit-animation-delay: 12s;
+    animation-delay: 12s;
+}
+#photo4 img{
+    -moz-animation-delay: 18s;
+    -webkit-animation-delay: 18s;
+    animation-delay: 18s;
+}
+#photo5 img {
+    -moz-animation-delay: 24s;
+    -webkit-animation-delay: 24s;
+    animation-delay: 24s;
+}
+@-webkit-keyframes imgTrans {
+    0% { opacity:0; }
+    7% { opacity:1; }
+    18% { opacity:1; }
+    25% { opacity:0; }
+    100% { opacity:0; }
+}
+@-moz-keyframes imgTrans {
+    0% { opacity:0; }
+    7% { opacity:1; }
+    18% { opacity:1; }
+    25% { opacity:0; }
+    100% { opacity:0; }
+}
+@keyframes imgTrans {
+    0% { opacity:0; }
+    7% { opacity:1; }
+    18% { opacity:1; }
+    25% { opacity:0; }
+    100% { opacity:0; }
+}
+/*ホームのコメント*/
+.kome{
+    padding: 1em 1em;
+    margin: 7em 1em;
+    background:  #D8FF99;
+    box-shadow: 0px 0px 0px 10px  #D8FF99;
+    border: dashed 2px white;
+    border-radius: 25px 25px 25px 25px;
+}
+.kome p1{
+    text-align: center;
+    font-size: 155%;
+    margin: center;
+    
+}
+/*ホームの選択*/
+#top{
+    margin: 0.5em;
+    background-color: #D8FF99; /*背景色の指定*/
+     /*おまじない*/
+    border-radius: 25px 25px 25px 25px;
+}
+#top a{
+    font-size: 120%; /*フォントサイズの調整*/
+    letter-spacing: 1px; /*文字と文字の間隔をあける*/
+    line-height: 250px; /*行間の指定（ブランディングの高さを決める）*/
+    padding-right:0%; /*文字の左側に余白をあける*/
+    text-decoration: none;
+}
+#top1{
+    margin: 0.5em;
+    background-color: #D8FF99; /*背景色の指定*/
+     /*おまじない*/
+    border-radius: 25px 25px 25px 25px;
+}
+#top1 a{
+    font-size: 120%; /*フォントサイズの調整*/
+    letter-spacing: 5px; /*文字と文字の間隔をあける*/
+    line-height: 250px; /*行間の指定（ブランディングの高さを決める）*/
+    padding-right:0%; /*文字の左側に余白をあける*/
+    text-decoration: none;
+}
+/*体験のパラグライダー*/
+#top2{
+    margin: 0.5em;
+    background-color: #D8FF99; /*背景色の指定*/
+     /*おまじない*/
+    border-radius: 25px 25px 25px 25px;
+}
+#top2 a{
+    font-size: 90%; /*フォントサイズの調整*/
+    letter-spacing: 1px; /*文字と文字の間隔をあける*/
+    line-height: 250px; /*行間の指定（ブランディングの高さを決める）*/
+    padding-right:0%; /*文字の左側に余白をあける*/
+    text-decoration: none;
+}
+#middle{
+    margin: 0.5em;
+    background-color: #D8FF99; /*背景色の指定*/
+    /*おまじない*/
+    border-radius: 25px 25px 25px 25px;
+}
+#middle a{
+    font-size: 120%; /*フォントサイズの調整*/
+    letter-spacing: 5px; /*文字と文字の間隔をあける*/
+    line-height: 250px; /*行間の指定（ブランディングの高さを決める）*/
+    padding-right:0%; /*文字の左側に余白をあける*/
+    text-decoration: none;
+}
+#bottom{
+    margin: 0.5em;
+    background-color: #D8FF99; /*背景色の指定*/
+    /*おまじない*/
+    border-radius: 25px 25px 25px 25px;
+}
+#bottom a{
+    font-size: 120%; /*フォントサイズの調整*/
+    letter-spacing: 1px; /*文字と文字の間隔をあける*/
+    line-height: 250px; /*行間の指定（ブランディングの高さを決める）*/
+    padding-right:0%; /*文字の左側に余白をあける*/
+    text-decoration: none;
+}
+.le{
+    margin: 20px;
+
+}
+.migi{
+    margin: 10px;
+}
+.left{
+    margin: 5px;
+}
+.ms{
+    position:relative;
+    top:60px;
+    left:0px; 
+}
+.ms1{ 
+    position:relative;
+    top:60px;
+    left:10px;
+}
+
+
+/*戻るボタン*/
+.btn-partial-line {
+    margin-left: 0%;
+    font-weight: normal;
+    text-decoration: none;
+    border-bottom: solid 2px #668ad8;
+    border-left: solid 2px #dbebf8;
+    color: black;
+}
+/*コメント*/
+.box25{
+    position: relative;
+    background: #fff0cd;
+    box-shadow: 0px 0px 0px 5px #fff0cd;
+    border: dashed 2px white;
+    padding: 0.2em 0.5em;
+    color: #454545;
+}
+.box25:after{
+    position: absolute;
+    content: '';
+    right: -7px;
+    top: -7px;
+    border-width: 0 15px 15px 0;
+    border-style: solid;
+    border-color: #ffdb88 #fff #ffdb88;
+    box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.15);
+}
+.box25 p {
+    margin: 0; 
+    padding: 0;
+}
+#main{
+
+}
+.spotPhoto{
+    width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+    
+}
+.photo{
+    width: 80%;
+    min-height: 100%;
+    margin-left: 40px;
+    object-fit: cover;
+}
+.a1{
+    font-size: 125%;
+    position: absolute;
+    width: 100px;
+}
+.a2{
+    font-size: 150%;
+    margin-left: 5px;
+}
+//上に戻るボタン
+/*パソコン・スマホ共通のCSS*/
+#PageTopBtn {
+    position: fixed; /*ボタンの配置場所を固定*/
+    bottom: -10px; /*下からのボタンの配置場所を指定*/
+    right: 10px; /*右からのボタンの配置場所を指定*/
+}
+#PageTopBtn a {
+    display: block; /*配置の調整*/
+    text-decoration: none; /*文字の下線を消す*/
+    color: #fff; /*文字の色*/
+    background: #90ee90; /*ボタンの背景色*/
+    text-align: center; /*文字を中央に配置*/
+    border-radius: 50%; /*ボタンの角を少し丸くする*/
+    outline: none; /*クリックしたときの黒い枠を消す*/
+}
+#PageTopBtn a:hover {
+    text-decoration: none; 
+    background: #228b22; /*マウスオーバー時の背景色*/
+}
+/*パソコンで表示する場合のCSS*/
+@media (min-width: 768px) {
+#PageTopBtn {
+    font-size: 25px; /*文字のサイズ*/
+}
+#PageTopBtn a {
+    width: 50px; /*ボタンの幅*/
+    height: 50px; /*ボタンの高さ*/
+    padding: 5px 0; /*文字の配置場所の調整*/
+}
+}
+/*スマホで表示する場合のCSS*/
+@media (max-width: 767px) {
+#PageTopBtn {
+    font-size: 20px;
+}
+#PageTopBtn a {
+    width: 50px;
+    height: 50px;
+    padding: 8px 0;
+}
+}
