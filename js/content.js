@@ -21,15 +21,20 @@ function convertCSVtoArray(str){ // 読み込んだCSVデータが文字列と�
     for(var i=0;i<tmp.length;++i){
         result[i] = tmp[i].split(',');
     }
- 
+
     var spotList=document.getElementById("main");
     spotList.innerHTML+="<a class='a2'>"+result[value[1]][2]+"</a></br>";
-    spotList.innerHTML+="<img src='../img/mp/"+result[value[1]][3]+"' width='100%'></br>";
-    spotList.innerHTML+="<br><div class='box25'>"+result[value[1]][6]+"</div></br>";
-    for(var k=7;k<result[value[1]].length;++k){
-    spotList.innerHTML+="<li>"+result[value[1]][k]+"</li></br>";
+    spotList.innerHTML+="<img src='../img/mp/"+result[value[1]][3]+"' class='photo'></br>";
+    spotList.innerHTML+="<br><div class='box25'>"+result[value[1]][4]+"</div></br>";
+    for(var k=5;k<result[value[1]].length-1;++k){
+        if(result[value[1]][k]!=""){
+            spotList.innerHTML+="<li>"+result[value[1]][k]+"</li></br>";
+        }
     }
 }
- 
+
 getCSV(); 
 
+var x = 100;
+function larger()  { x *= 1.2; document.body.style.fontSize = x + '%'; }
+function smaller() { x /= 1.2; document.body.style.fontSize = x + '%'; }

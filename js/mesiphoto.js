@@ -24,10 +24,7 @@ function convertCSVtoArray(str){ // 読み込んだCSVデータが文字列と�
     var spotList=document.getElementById("main");
     for(var j=1;j<result.length;++j){
         if(result[j][1]=="ごはん"){
-            spotList.innerHTML+="<div id='name'>";
-            spotList.innerHTML+="<a href='../ms/mcontent.html?no="+result[j][0]+"'><img src='../img/mp/"+result[j][3]+"' class='spotPhoto'></a>";
-            spotList.innerHTML+="<a class='a1'>"+result[j][2]+"</a>";
-            spotList.innerHTML+="</div>";
+            spotList.innerHTML+="<div id='name'><a href='../ms/mcontent.html?no="+result[j][0]+"'><img src='../img/mp/"+result[j][3]+"' class='spotPhoto'></a><a class='a1' href='../ms/mcontent.html?no="+result[j][0]+"'>"+result[j][2]+"</a></div>";
         }   
     }
 }

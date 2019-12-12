@@ -1,23 +1,27 @@
+/**/
 body a{
     text-decoration: none;
 }
-header h1{/*ヘッダー*/
+
+/*ヘッダー*/
+header h1{
     font-size:120%; /*フォントサイズの調整*/
     color:#313131; /*文字色の変更*/
-    padding-top: 10px; /*文字上部に余白*/
-    padding-bottom: 10px; /*文字下部に余白*/
-    padding-left: 20px; /*文字左側に余白*/
-    padding-right: 20px; /*文字右側に余白*/
+    padding-top: 3%; /*文字上部に余白*/
+    padding-bottom: 3%; /*文字下部に余白*/
+    padding-left: 6%; /*文字左側に余白*/
+    padding-right: 6%; /*文字右側に余白*/
     border:1px solid #313131; /*文字の周りに線を描く*/
     letter-spacing: 3px; /*文字と文字の間隔をあける*/
     font-weight:400; /*文字の太さの変更*/
     background: #dbebf8;/*背景色*/
     border-radius: 25px 25px 25px 25px;/*左側の角を丸く*/
 }
+
 /*写真*/
 #stage {
     position: relative;
-    max-width:400px;
+    max-width:100%;
     margin: 0 auto;
     background:#ddd;
 }
@@ -78,10 +82,11 @@ header h1{/*ヘッダー*/
     25% { opacity:0; }
     100% { opacity:0; }
 }
+
 /*ホームのコメント*/
 .kome{
     padding: 1em 1em;
-    margin: 7em 1em;
+    margin: 4em 1em;
     background:  #D8FF99;
     box-shadow: 0px 0px 0px 10px  #D8FF99;
     border: dashed 2px white;
@@ -89,20 +94,22 @@ header h1{/*ヘッダー*/
 }
 .kome p1{
     text-align: center;
-    font-size: 155%;
+    font-size: 145%;
     margin: center;
-    
 }
-/*ホームの選択*/
+.kome p{
+    font-size: 135%;
+}
+
+/*3の色の選択*/
 #top{
-    margin: 0.5em;
+    margin: 0.1em;
     background-color: #D8FF99; /*背景色の指定*/
-     /*おまじない*/
-    border-radius: 25px 25px 25px 25px;
+    border-radius: 25px 25px 25px 25px;/*おまじない*/
 }
 #top a{
     font-size: 120%; /*フォントサイズの調整*/
-    letter-spacing: 1px; /*文字と文字の間隔をあける*/
+    letter-spacing:0.1em; /*文字と文字の間隔をあける*/
     line-height: 250px; /*行間の指定（ブランディングの高さを決める）*/
     padding-right:0%; /*文字の左側に余白をあける*/
     text-decoration: none;
@@ -110,26 +117,59 @@ header h1{/*ヘッダー*/
 #top1{
     margin: 0.5em;
     background-color: #D8FF99; /*背景色の指定*/
-     /*おまじない*/
-    border-radius: 25px 25px 25px 25px;
+    border-radius: 25px 25px 25px 25px;/*おまじない*/
 }
 #top1 a{
     font-size: 120%; /*フォントサイズの調整*/
-    letter-spacing: 5px; /*文字と文字の間隔をあける*/
+    letter-spacing: 0.3em; /*文字と文字の間隔をあける*/
     line-height: 250px; /*行間の指定（ブランディングの高さを決める）*/
     padding-right:0%; /*文字の左側に余白をあける*/
     text-decoration: none;
 }
-/*体験のパラグライダー*/
-#top2{
+#topk{
     margin: 0.5em;
-    background-color: #D8FF99; /*背景色の指定*/
-     /*おまじない*/
-    border-radius: 25px 25px 25px 25px;
+    background-color: #ffff93; /*背景色の指定*/
+    border-radius: 25px 25px 25px 25px;/*おまじない*/
+}
+#topk a{
+    font-size: 120%; /*フォントサイズの調整*/
+    letter-spacing: 0.3em; /*文字と文字の間隔をあける*/
+    line-height: 250px; /*行間の指定（ブランディングの高さを決める）*/
+    padding-right:0%; /*文字の左側に余白をあける*/
+    text-decoration: none;
+}
+#topj{
+    margin: 0.5em;
+    background-color: #ffe0ff; /*背景色の指定*/
+    border-radius: 25px 25px 25px 25px;/*おまじない*/
+}
+#topj a{
+    font-size: 120%; /*フォントサイズの調整*/
+    letter-spacing: 0.3em; /*文字と文字の間隔をあける*/
+    line-height: 250px; /*行間の指定（ブランディングの高さを決める）*/
+    padding-right:0%; /*文字の左側に余白をあける*/
+    text-decoration: none;
+}
+#topmati{
+    margin: 0.5em;
+    background-color: #c1ffff; /*背景色の指定*/
+    border-radius: 25px 25px 25px 25px;/*おまじない*/
+}
+#topmati a{
+    font-size: 120%; /*フォントサイズの調整*/
+    letter-spacing: 0.4em; /*文字と文字の間隔をあける*/
+    line-height: 250px; /*行間の指定（ブランディングの高さを決める）*/
+    padding-right:0%; /*文字の左側に余白をあける*/
+    text-decoration: none;
+}
+/*体験のパラグライダー*/#top2{
+    margin: 0.5em;
+    background-color: #ffadad; /*背景色の指定*/
+    border-radius: 25px 25px 25px 25px;/*おまじない*/
 }
 #top2 a{
     font-size: 90%; /*フォントサイズの調整*/
-    letter-spacing: 1px; /*文字と文字の間隔をあける*/
+    letter-spacing: 0.1em; /*文字と文字の間隔をあける*/
     line-height: 250px; /*行間の指定（ブランディングの高さを決める）*/
     padding-right:0%; /*文字の左側に余白をあける*/
     text-decoration: none;
@@ -137,12 +177,59 @@ header h1{/*ヘッダー*/
 #middle{
     margin: 0.5em;
     background-color: #D8FF99; /*背景色の指定*/
-    /*おまじない*/
-    border-radius: 25px 25px 25px 25px;
+    border-radius: 25px 25px 25px 25px;/*おまじない*/
 }
 #middle a{
     font-size: 120%; /*フォントサイズの調整*/
-    letter-spacing: 5px; /*文字と文字の間隔をあける*/
+    letter-spacing: 0.5em; /*文字と文字の間隔をあける*/
+    line-height: 250px; /*行間の指定（ブランディングの高さを決める）*/
+    padding-right:0%; /*文字の左側に余白をあける*/
+    text-decoration: none;
+}
+#middlek{
+    margin: 0.5em;
+    background-color: #ffff93; /*背景色の指定*/
+    border-radius: 25px 25px 25px 25px;/*おまじない*/
+}
+#middlek a{
+    font-size: 120%; /*フォントサイズの調整*/
+    letter-spacing: 0.2em; /*文字と文字の間隔をあける*/
+    line-height: 250px; /*行間の指定（ブランディングの高さを決める）*/
+    padding-right:0%; /*文字の左側に余白をあける*/
+    text-decoration: none;
+}
+#middlej{
+    margin: 0.5em;
+    background-color: #ffe0ff; /*背景色の指定*/
+    border-radius: 25px 25px 25px 25px;/*おまじない*/
+}
+#middlej a{
+    font-size: 120%; /*フォントサイズの調整*/
+    letter-spacing: 0.3em; /*文字と文字の間隔をあける*/
+    line-height: 250px; /*行間の指定（ブランディングの高さを決める）*/
+    padding-right:0%; /*文字の左側に余白をあける*/
+    text-decoration: none;
+}
+#middletai{
+    margin: 0.5em;
+    background-color: #ffadad; /*背景色の指定*/
+    border-radius: 25px 25px 25px 25px;/*おまじない*/
+}
+#middletai a{
+    font-size: 120%; /*フォントサイズの調整*/
+    letter-spacing: 0.3em; /*文字と文字の間隔をあける*/
+    line-height: 250px; /*行間の指定（ブランディングの高さを決める）*/
+    padding-right:0%; /*文字の左側に余白をあける*/
+    text-decoration: none;
+}
+#middlemati{
+    margin: 0.5em;
+    background-color: #c1ffff; /*背景色の指定*/
+    border-radius: 25px 25px 25px 25px;/*おまじない*/
+}
+#middlemati a{
+    font-size: 120%; /*フォントサイズの調整*/
+    letter-spacing: 0.3em; /*文字と文字の間隔をあける*/
     line-height: 250px; /*行間の指定（ブランディングの高さを決める）*/
     padding-right:0%; /*文字の左側に余白をあける*/
     text-decoration: none;
@@ -150,37 +237,97 @@ header h1{/*ヘッダー*/
 #bottom{
     margin: 0.5em;
     background-color: #D8FF99; /*背景色の指定*/
-    /*おまじない*/
-    border-radius: 25px 25px 25px 25px;
+    border-radius: 25px 25px 25px 25px;/*おまじない*/
 }
 #bottom a{
     font-size: 120%; /*フォントサイズの調整*/
-    letter-spacing: 1px; /*文字と文字の間隔をあける*/
+    letter-spacing: 0.1em; /*文字と文字の間隔をあける*/
     line-height: 250px; /*行間の指定（ブランディングの高さを決める）*/
     padding-right:0%; /*文字の左側に余白をあける*/
     text-decoration: none;
 }
+#bottomk{
+    margin: 0.5em;
+    background-color: #ffff93; /*背景色の指定*/
+    border-radius: 25px 25px 25px 25px;/*おまじない*/
+}
+#bottomk a{
+    font-size: 120%; /*フォントサイズの調整*/
+    letter-spacing: 0.1em; /*文字と文字の間隔をあける*/
+    line-height: 250px; /*行間の指定（ブランディングの高さを決める）*/
+    padding-right:0%; /*文字の左側に余白をあける*/
+    text-decoration: none;
+}
+#bottomj{
+    margin: 0.5em;
+    background-color: #ffe0ff; /*背景色の指定*/
+    border-radius: 25px 25px 25px 25px;/*おまじない*/
+}
+#bottomj a{
+    font-size: 120%; /*フォントサイズの調整*/
+    letter-spacing: 0.1em; /*文字と文字の間隔をあける*/
+    line-height: 250px; /*行間の指定（ブランディングの高さを決める）*/
+    padding-right:0%; /*文字の左側に余白をあける*/
+    text-decoration: none;
+}
+#bottomtai{
+    margin: 0.5em;
+    background-color: #ffadad; /*背景色の指定*/
+    border-radius: 25px 25px 25px 25px;/*おまじない*/
+}
+#bottomtai a{
+    font-size: 120%; /*フォントサイズの調整*/
+    letter-spacing: 0.1em; /*文字と文字の間隔をあける*/
+    line-height: 250px; /*行間の指定（ブランディングの高さを決める）*/
+    padding-right:0%; /*文字の左側に余白をあける*/
+    text-decoration: none;
+}
+#bottommati{
+    margin: 0.5em;
+    background-color: #c1ffff; /*背景色の指定*/
+    border-radius: 25px 25px 25px 25px;/*おまじない*/
+}
+#bottommati a{
+   font-size: 120%; /*フォントサイズの調整*/
+    letter-spacing: 0.4em; /*文字と文字の間隔をあける*/
+    line-height: 250px; /*行間の指定（ブランディングの高さを決める）*/
+    padding-right:0%; /*文字の左側に余白をあける*/
+    text-decoration: none;
+}
+#gamen{
+    margin: 0.5em;
+    background-color: #ffce9e; /*背景色の指定*/
+    border-radius: 25px 25px 25px 25px;/*おまじない*/
+}
+#gamen2{
+    margin: 0.5em;
+    background-color: #e5ffcc; /*背景色の指定*/
+    border-radius: 25px 25px 25px 25px;/*おまじない*/
+}
 .le{
-    margin: 20px;
+    margin: 8%;
 
 }
 .migi{
-    margin: 10px;
+    margin: 1%;
 }
 .left{
-    margin: 5px;
+    margin: 0.7%;
 }
 .ms{
     position:relative;
-    top:60px;
+    top:3em;
     left:0px; 
+    width: 55%;
+    height: 60%;
 }
 .ms1{ 
     position:relative;
-    top:60px;
-    left:10px;
+    top:3em;
+    left:0.5em;
+    width: 55%;
+    height: 60%;
 }
-
 
 /*戻るボタン*/
 .btn-partial-line {
@@ -191,6 +338,7 @@ header h1{/*ヘッダー*/
     border-left: solid 2px #dbebf8;
     color: black;
 }
+
 /*コメント*/
 .box25{
     position: relative;
@@ -214,69 +362,637 @@ header h1{/*ヘッダー*/
     margin: 0; 
     padding: 0;
 }
-#main{
 
+/*/javascriptのmain/*/
+#main{
+    
 }
 .spotPhoto{
-    width: 100%;
+    width: 60%;
     min-height: 100%;
     object-fit: cover;
-    
+    margin: 8% 4%;
 }
 .photo{
     width: 80%;
     min-height: 100%;
-    margin-left: 40px;
+    margin: 10%;
     object-fit: cover;
 }
 .a1{
     font-size: 125%;
     position: absolute;
-    width: 100px;
+    margin: 21% 0%;
 }
 .a2{
     font-size: 150%;
-    margin-left: 5px;
+    margin-left:1%;
 }
-//上に戻るボタン
-/*パソコン・スマホ共通のCSS*/
-#PageTopBtn {
-    position: fixed; /*ボタンの配置場所を固定*/
-    bottom: -10px; /*下からのボタンの配置場所を指定*/
-    right: 10px; /*右からのボタンの配置場所を指定*/
+
+
+/*/パンくずリスト/*/
+.breadcrumb {
+  padding-left:0;
+  margin-left:0;
 }
-#PageTopBtn a {
-    display: block; /*配置の調整*/
-    text-decoration: none; /*文字の下線を消す*/
-    color: #fff; /*文字の色*/
-    background: #90ee90; /*ボタンの背景色*/
-    text-align: center; /*文字を中央に配置*/
-    border-radius: 50%; /*ボタンの角を少し丸くする*/
-    outline: none; /*クリックしたときの黒い枠を消す*/
+.breadcrumb li{
+  display:inline;/*横に並ぶように*/
+  list-style: none;
+  font-weight: bold;/*太字*/
 }
-#PageTopBtn a:hover {
-    text-decoration: none; 
-    background: #228b22; /*マウスオーバー時の背景色*/
+.breadcrumb li:after {/* >を表示*/
+  content: '>';
+  padding: 0.08em;
+  color: #555;
 }
-/*パソコンで表示する場合のCSS*/
-@media (min-width: 768px) {
-#PageTopBtn {
-    font-size: 25px; /*文字のサイズ*/
+.breadcrumb li:last-child:after {
+  content: '';
 }
-#PageTopBtn a {
-    width: 50px; /*ボタンの幅*/
-    height: 50px; /*ボタンの高さ*/
-    padding: 5px 0; /*文字の配置場所の調整*/
+.breadcrumb li a {
+  text-decoration: none;
+  color: #52b5ee;/*色*/
 }
+.breadcrumb li a:hover {
+  text-decoration: underline;
 }
-/*スマホで表示する場合のCSS*/
-@media (max-width: 767px) {
-#PageTopBtn {
-    font-size: 20px;
+
+/*/メニュー/*/
+.hidden_box {
+    margin: 0.8em 0;/*前後の余白*/
+    padding: 0;
 }
-#PageTopBtn a {
-    width: 50px;
-    height: 50px;
-    padding: 8px 0;
+/*ボタン装飾*/.hidden_box label {   
+
 }
+/*ボタンホバー時*/.hidden_box label:hover {
+    background: #efefef;
+}
+/*チェックは見えなくする*/.hidden_box input {
+    display: none;
+}
+/*中身を非表示にしておく*/.hidden_box .hidden_show {
+    height: 0;
+    padding: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: 0.8s;
+}
+/*クリックで中身表示*/.hidden_box input:checked ~ .hidden_show {
+    padding: 10px 0;
+    height: auto;
+    opacity: 1;
+}
+
+.small {
+  display: inline-block;
+  padding: 0.3em 0.8em;
+  text-decoration: none;
+  background-color: white;
+  color: #679efd;
+  border: dashed 1px #679efd;
+  border-radius: 3px;
+  transition: .4s;
+}
+.small:hover {
+  border-style: dotted;
+  color: #679efd;
+}
+.big{
+  display: inline-block;
+  padding: 0.3em 0.8em;
+  text-decoration: none;
+  background-color: white;
+  color: #FF6928;
+  border: dashed 1px #FF6928;
+  border-radius: 3px;
+  transition: .4s;
+}
+.big:hover{
+  border-style: dotted;
+  color: #FF6928;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-- スマホ版表示CSS  --*/
+@media screen and (min-width: 768px){
+body a{
+    text-decoration: none;
+}
+
+/*ヘッダー*/
+header h1{
+    font-size:150%; /*フォントサイズの調整*/
+    color:#313131; /*文字色の変更*/
+    padding-top: 1.5%; /*文字上部に余白*/
+    padding-bottom: 1.5%; /*文字下部に余白*/
+    padding-left: 3%; /*文字左側に余白*/
+    padding-right: 3%; /*文字右側に余白*/
+    margin-left:2.5%;
+    margin-right:2.5%;
+    border:1px solid #313131; /*文字の周りに線を描く*/
+    letter-spacing: 3px; /*文字と文字の間隔をあける*/
+    font-weight:400; /*文字の太さの変更*/
+    background: #dbebf8;/*背景色*/
+    border-radius: 25px 25px 25px 25px;/*左側の角を丸く*/
+}
+header h2{
+   font-size:252%;
+}
+
+/*写真*/
+#stage {
+    position: relative;
+    max-width:60%;
+    margin: 0 auto;
+    background:#ddd;
+}
+.pic {
+    position: absolute;
+}
+.pic img {
+    width: 100%;
+    height: auto;
+    opacity:0;
+    -moz-animation: imgTrans 30s infinite;
+    -webkit-animation: imgTrans 30s ease-in infinite;
+    animation: imgTrans 30s infinite;
+}
+#photo1 img {
+    -moz-animation-delay: 0s;
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
+}
+#photo2 img {
+    -moz-animation-delay: 6s;
+    -webkit-animation-delay: 6s;
+    animation-delay: 6s;
+}
+#photo3 img {
+    -moz-animation-delay: 12s;
+    -webkit-animation-delay: 12s;
+    animation-delay: 12s;
+}
+#photo4 img{
+    -moz-animation-delay: 18s;
+    -webkit-animation-delay: 18s;
+    animation-delay: 18s;
+}
+#photo5 img {
+    -moz-animation-delay: 24s;
+    -webkit-animation-delay: 24s;
+    animation-delay: 24s;
+}
+@-webkit-keyframes imgTrans {
+    0% { opacity:0; }
+    7% { opacity:1; }
+    18% { opacity:1; }
+    25% { opacity:0; }
+    100% { opacity:0; }
+}
+@-moz-keyframes imgTrans {
+    0% { opacity:0; }
+    7% { opacity:1; }
+    18% { opacity:1; }
+    25% { opacity:0; }
+    100% { opacity:0; }
+}
+@keyframes imgTrans {
+    0% { opacity:0; }
+    7% { opacity:1; }
+    18% { opacity:1; }
+    25% { opacity:0; }
+    100% { opacity:0; }
+}
+
+/*ホームのコメント*/
+.kome{
+    padding: 0.5em 0.5em;
+    margin: 4em 5em;
+    background:  #D8FF99;
+    box-shadow: 0px 0px 0px 10px  #D8FF99;
+    border: dashed 2px white;
+    border-radius: 25px 25px 25px 25px;
+}
+.kome p1{
+    text-align: center;
+    font-size: 205%;
+    margin-left:6%;
+
+}
+.kome p{
+    font-size: 135%;
+    margin-left: 5%;
+}
+
+/*3の色の選択*/
+#top{
+    margin: 4em;
+    background-color: #D8FF99; /*背景色の指定*/
+    border-radius: 25px 25px 25px 25px;/*おまじない*/
+}
+#top a{
+    font-size: 200%; /*フォントサイズの調整*/
+    letter-spacing: 0.4em; /*文字と文字の間隔をあける*/
+    line-height: 300px; /*行間の指定（ブランディングの高さを決める）*/
+    padding-right:0%; /*文字の左側に余白をあける*/
+    text-decoration: none;
+}
+#top1{
+    margin: 2em;
+    background-color: #D8FF99; /*背景色の指定*/
+    border-radius: 25px 25px 25px 25px;/*おまじない*/
+}
+#top1 a{
+    font-size: 200%; /*フォントサイズの調整*/
+    letter-spacing: 0.3em; /*文字と文字の間隔をあける*/
+    line-height: 300px; /*行間の指定（ブランディングの高さを決める）*/
+    padding-right:0%; /*文字の左側に余白をあける*/
+    text-decoration: none;
+}
+#topk{
+    margin: 2em;
+    background-color: #ffff93; /*背景色の指定*/
+    border-radius: 25px 25px 25px 25px;/*おまじない*/
+}
+#topk a{
+    font-size: 200%; /*フォントサイズの調整*/
+    letter-spacing: 0.3em; /*文字と文字の間隔をあける*/
+    line-height: 300px; /*行間の指定（ブランディングの高さを決める）*/
+    padding-right:0%; /*文字の左側に余白をあける*/
+    text-decoration: none;
+}
+#topj{
+    margin: 2em;
+    background-color: #ffe0ff; /*背景色の指定*/
+    border-radius: 25px 25px 25px 25px;/*おまじない*/
+}
+#topj a{
+    font-size: 200%; /*フォントサイズの調整*/
+    letter-spacing: 0.3em; /*文字と文字の間隔をあける*/
+    line-height: 300px; /*行間の指定（ブランディングの高さを決める）*/
+    padding-right:0%; /*文字の左側に余白をあける*/
+    text-decoration: none;
+}
+#topmati{
+    margin: 2em;
+    background-color: #c1ffff; /*背景色の指定*/
+    border-radius: 25px 25px 25px 25px;/*おまじない*/
+}
+#topmati a{
+    font-size: 200%; /*フォントサイズの調整*/
+    letter-spacing: 0.4em; /*文字と文字の間隔をあける*/
+    line-height: 300px; /*行間の指定（ブランディングの高さを決める）*/
+    padding-right:0%; /*文字の左側に余白をあける*/
+    text-decoration: none;
+}
+/*体験のパラグライダー*/#top2{
+    margin: 2em;
+    background-color: #ffadad; /*背景色の指定*/
+    border-radius: 25px 25px 25px 25px;/*おまじない*/
+}
+#top2 a{
+    font-size: 180%; /*フォントサイズの調整*/
+    letter-spacing: 0.1em; /*文字と文字の間隔をあける*/
+    line-height: 300px; /*行間の指定（ブランディングの高さを決める）*/
+    padding-right:0%; /*文字の左側に余白をあける*/
+    text-decoration: none;
+}
+#middle{
+    margin: 2em;
+    background-color: #D8FF99; /*背景色の指定*/
+    border-radius: 25px 25px 25px 25px;/*おまじない*/
+}
+#middle a{
+    font-size: 200%; /*フォントサイズの調整*/
+    letter-spacing: 0.5em; /*文字と文字の間隔をあける*/
+    line-height: 300px; /*行間の指定（ブランディングの高さを決める）*/
+    padding-right:0%; /*文字の左側に余白をあける*/
+    text-decoration: none;
+}
+#middlek{
+    margin: 2em;
+    background-color: #ffff93; /*背景色の指定*/
+    border-radius: 25px 25px 25px 25px;/*おまじない*/
+}
+#middlek a{
+    font-size: 200%; /*フォントサイズの調整*/
+    letter-spacing: 0.2em; /*文字と文字の間隔をあける*/
+    line-height: 300px; /*行間の指定（ブランディングの高さを決める）*/
+    padding-right:0%; /*文字の左側に余白をあける*/
+    text-decoration: none;
+}
+#middlej{
+    margin: 2em;
+    background-color: #ffe0ff; /*背景色の指定*/
+    border-radius: 25px 25px 25px 25px;/*おまじない*/
+}
+#middlej a{
+    font-size: 200%; /*フォントサイズの調整*/
+    letter-spacing: 0.3em; /*文字と文字の間隔をあける*/
+    line-height: 300px; /*行間の指定（ブランディングの高さを決める）*/
+    padding-right:0%; /*文字の左側に余白をあける*/
+    text-decoration: none;
+}
+#middletai{
+    margin: 2em;
+    background-color: #ffadad; /*背景色の指定*/
+    border-radius: 25px 25px 25px 25px;/*おまじない*/
+}
+#middletai a{
+    font-size: 200%; /*フォントサイズの調整*/
+    letter-spacing: 0.3em; /*文字と文字の間隔をあける*/
+    line-height: 300px; /*行間の指定（ブランディングの高さを決める）*/
+    padding-right:0%; /*文字の左側に余白をあける*/
+    text-decoration: none;
+}
+#middlemati{
+    margin: 2em;
+    background-color: #c1ffff; /*背景色の指定*/
+    border-radius: 25px 25px 25px 25px;/*おまじない*/
+}
+#middlemati a{
+    font-size: 200%; /*フォントサイズの調整*/
+    letter-spacing: 0.3em; /*文字と文字の間隔をあける*/
+    line-height: 300px; /*行間の指定（ブランディングの高さを決める）*/
+    padding-right:0%; /*文字の左側に余白をあける*/
+    text-decoration: none;
+}
+#bottom{
+    margin: 2em;
+    background-color: #D8FF99; /*背景色の指定*/
+    border-radius: 25px 25px 25px 25px;/*おまじない*/
+}
+#bottom a{
+    font-size: 200%; /*フォントサイズの調整*/
+    letter-spacing: 0.1em; /*文字と文字の間隔をあける*/
+    line-height: 300px; /*行間の指定（ブランディングの高さを決める）*/
+    padding-right:0%; /*文字の左側に余白をあける*/
+    text-decoration: none;
+}
+#bottomk{
+    margin: 2em;
+    background-color: #ffff93; /*背景色の指定*/
+    border-radius: 25px 25px 25px 25px;/*おまじない*/
+}
+#bottomk a{
+    font-size: 200%; /*フォントサイズの調整*/
+    letter-spacing: 0.1em; /*文字と文字の間隔をあける*/
+    line-height: 300px; /*行間の指定（ブランディングの高さを決める）*/
+    padding-right:0%; /*文字の左側に余白をあける*/
+    text-decoration: none;
+}
+#bottomj{
+    margin: 2em;
+    background-color: #ffe0ff; /*背景色の指定*/
+    border-radius: 25px 25px 25px 25px;/*おまじない*/
+}
+#bottomj a{
+    font-size: 200%; /*フォントサイズの調整*/
+    letter-spacing: 0.1em; /*文字と文字の間隔をあける*/
+    line-height: 300px; /*行間の指定（ブランディングの高さを決める）*/
+    padding-right:0%; /*文字の左側に余白をあける*/
+    text-decoration: none;
+}
+#bottomtai{
+    margin: 2em;
+    background-color: #ffadad; /*背景色の指定*/
+    border-radius: 25px 25px 25px 25px;/*おまじない*/
+}
+#bottomtai a{
+    font-size: 200%; /*フォントサイズの調整*/
+    letter-spacing: 0.1em; /*文字と文字の間隔をあける*/
+    line-height: 300px; /*行間の指定（ブランディングの高さを決める）*/
+    padding-right:0%; /*文字の左側に余白をあける*/
+    text-decoration: none;
+}
+#bottommati{
+    margin: 2em;
+    background-color: #c1ffff; /*背景色の指定*/
+    border-radius: 25px 25px 25px 25px;/*おまじない*/
+}
+#bottommati a{
+   font-size: 200%; /*フォントサイズの調整*/
+    letter-spacing: 0.4em; /*文字と文字の間隔をあける*/
+    line-height: 300px; /*行間の指定（ブランディングの高さを決める）*/
+    padding-right:0%; /*文字の左側に余白をあける*/
+    text-decoration: none;
+}
+#gamen{
+    margin: 0.5em;
+    background-color: #ffce9e; /*背景色の指定*/
+    border-radius: 25px 25px 25px 25px;/*おまじない*/
+}
+#gamen2{
+    margin: 0.5em;
+    background-color: #e5ffcc; /*背景色の指定*/
+    border-radius: 25px 25px 25px 25px;/*おまじない*/
+}
+.le{
+    margin: 18%;
+
+}
+.migi{
+    margin: 12%;
+}
+.left{
+    margin: 10%;
+}
+.ms{
+    position:relative;
+    top:3em;
+    left:0px; 
+    width: 45%;
+    height: 40%;
+}
+.ms1{ 
+    position:relative;
+    top:3em;
+    left:0.5em;
+    width: 45%;
+    height: 40%;
+}
+
+/*戻るボタン*/
+.btn-partial-line {
+    margin-left: 0%;
+    font-weight: normal;
+    text-decoration: none;
+    border-bottom: solid 2px #668ad8;
+    border-left: solid 2px #dbebf8;
+    color: black;
+}
+
+/*コメント*/
+.box25{
+    font-size:150%;
+    position: relative;
+    background: #fff0cd;
+    box-shadow: 0px 0px 0px 5px #fff0cd;
+    border: dashed 2px white;
+    padding: 0.2em 0.5em;
+    color: #454545;
+    margin-left:5%;
+    margin-right:5%;
+}
+.box25:after{
+    position: absolute;
+    content: '';
+    right: -7px;
+    top: -7px;
+    border-width: 0 15px 15px 0;
+    border-style: solid;
+    border-color: #ffdb88 #fff #ffdb88;
+    box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.15);
+}
+.box25 p {
+    margin: 3%; 
+    padding: 0;
+}
+
+/*/javascriptのmain/*/
+#main{
+    
+}
+html,body{
+	width: 100%;
+    height: 100%;
+}
+#name{
+	float:left;
+	width: 48%;
+	margin: 0.5em;
+    background-color: #ffce9e; /*背景色の指定*/
+    border-radius: 25px 25px 25px 25px;/*おまじない*/
+}
+#name2{
+    float:left;
+	width: 48%;
+    margin: 0.5em;
+    background-color: #e5ffcc; /*背景色の指定*/
+    border-radius: 25px 25px 25px 25px;/*おまじない*/
+
+.spotPhoto{
+    width: 60%;
+    min-height: 100%;
+    object-fit: cover;
+    margin: 8% 4%;
+}
+.photo{
+    max-width:60%;
+    object-fit: cover;
+    
+}
+.a1{
+    font-size: 125%;
+    position: absolute;
+    margin: 21% 0%;
+}
+.a2{
+    font-size: 150%;
+    margin-left:3%;
+}
+
+
+/*/パンくずリスト/*/
+.breadcrumb {
+  padding-left:0;
+  margin-left:0;
+}
+.breadcrumb li{
+  display:inline;/*横に並ぶように*/
+  list-style: none;
+  font-weight: bold;/*太字*/
+}
+.breadcrumb li:after {/* >を表示*/
+  content: ">";
+  padding: 0.08em;
+  color: #555;
+}
+.breadcrumb li:last-child:after {
+  content: '';
+}
+.breadcrumb li a {
+  font-size:125%;
+  text-decoration: none;
+  color: #52b5ee;/*色*/
+}
+.breadcrumb li a:hover {
+  text-decoration: underline;
+}
+
+/*/メニュー/*/
+.hidden_box {
+    margin: 0.8em 0;/*前後の余白*/
+    padding: 0;
+}
+/*ボタン装飾*/.hidden_box label {   
+
+}
+/*ボタンホバー時*/.hidden_box label:hover {
+    background: #efefef;
+}
+/*チェックは見えなくする*/.hidden_box input {
+    display: none;
+}
+/*中身を非表示にしておく*/.hidden_box .hidden_show {
+    height: 0;
+    padding: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: 0.8s;
+}
+/*クリックで中身表示*/.hidden_box input:checked ~ .hidden_show {
+    padding: 10px 0;
+    height: auto;
+    opacity: 1;
+}
+
+.small {
+  display: inline-block;
+  padding: 0.3em 0.8em;
+  text-decoration: none;
+  background-color: white;
+  color: #679efd;
+  border: dashed 1px #679efd;
+  border-radius: 3px;
+  transition: .4s;
+}
+.small:hover {
+  border-style: dotted;
+  color: #679efd;
+}
+.big{
+  display: inline-block;
+  padding: 0.3em 0.8em;
+  text-decoration: none;
+  background-color: white;
+  color: #FF6928;
+  border: dashed 1px #FF6928;
+  border-radius: 3px;
+  transition: .4s;
+}
+.big:hover{
+  border-style: dotted;
+  color: #FF6928;
 }
