@@ -24,10 +24,8 @@ function convertCSVtoArray(str){ // 読み込んだCSVデータが文字列と�
     var spotList=document.getElementById("main");
     for(var j=1;j<result.length;++j){
         if(result[j][1]=="温泉"){
-            spotList.innerHTML+="<div id='name'>";
-            spotList.innerHTML+="<a href='../kk/kcontent.html?no="+result[j][0]+"'><img src='../img/mp/"+result[j][3]+"' class='spotPhoto'></a>";
-            spotList.innerHTML+="<a class='a1'>"+result[j][2]+"</a></div>";
-        }   
+            spotList.innerHTML+="<div id='name'><a href='../kk/kcontent.html?no="+result[j][0]+"'><img src='../img/kp/"+result[j][3]+"' class='spotPhoto'></a><a class='a1' href='../kk/kcontent.html?no="+result[j][0]+"'>"+result[j][2]+"</a></div>";
+        }
     }
 }
 getCSV(); 

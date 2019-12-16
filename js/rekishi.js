@@ -25,10 +25,13 @@ function convertCSVtoArray(str){ // 読み込んだCSVデータが文字列と�
     for(var j=1;j<result.length;++j){
         if(result[j][1]=="歴史"){
             spotList.innerHTML+="<a class='a2'>"+result[j][2]+"</a></br>";            
-            spotList.innerHTML+="<a href='../kk/kcontent.html?no="+result[j][0]+"'><img src='../img/mp/"+result[j][3]+"' class='photo'><br></a>";
+            spotList.innerHTML+="<img src='../img/kp/"+result[j][3]+"' class='photo'><br></a>";
             spotList.innerHTML+="<br><div class='box25'>"+result[j][4]+"</div></br>";
         }
     }
 }
 getCSV(); 
 
+var x = 100;
+function larger()  { x *= 1.2; document.body.style.fontSize = x + '%'; }
+function smaller() { x /= 1.2; document.body.style.fontSize = x + '%'; }

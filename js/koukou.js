@@ -22,11 +22,11 @@ function convertCSVtoArray(str){ // 読み込んだCSVデータが文字列と�
     }
  
     var spotList=document.getElementById("main");
+
     for(var j=1;j<result.length;++j){
          if(result[j][1]=="高校"){
                        
-            spotList.innerHTML+="<img src='../img/jp/"+result[j][3]+"' class='photo'><br></a>";
-            spotList.innerHTML+="<br><div class='box25'>"+result[j][4]+"</div></br>";
+            spotList.innerHTML+="<div id='kou'><img src='../img/jp/"+result[j][3]+"' class='photo'><br></a><br><div class='box25'>"+result[j][4]+"</div></br></div>";
             
         }
     }
