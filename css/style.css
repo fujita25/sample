@@ -803,7 +803,7 @@ header h2{
 	width: 30%;
     margin-left: 0.5em;
     background-color: #ffe0ff; /*背景色の指定*/
-    border-radius: 25px 25px 25px 25px;/*おまじない*/
+    border-radius: 0px 0px 0px 0px;/*おまじない*/
 }
 #bottomj a{
     font-size: 200%; /*フォントサイズの調整*/
@@ -939,6 +939,16 @@ html,body{
 	width: 100%;
     height: 100%;
 }
+#harf{
+    float:left;
+	width: 48%;
+	margin: 0.5em;
+}
+#list{
+	width: 48%;
+	margin: 0.5em;
+
+}
 #name{
 	float:left;
 	width: 48%;
@@ -960,9 +970,9 @@ html,body{
     margin: 8% 4%;
 }
 .photo{
-    max-width:60%;
+    width: 60%;
+    margin-left: 20%;
     object-fit: cover;
-    margin: 8% 4%;
 }
 .a1{
     font-size: 125%;

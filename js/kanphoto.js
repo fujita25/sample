@@ -22,17 +22,19 @@ function convertCSVtoArray(str){ // 読み込んだCSVデータが文字列と�
     }
  
     var spotList=document.getElementById("main");
+    var spotListText;
     for(var j=1;j<result.length;++j){
         if(result[j][1]=="体験"){
-            spotList.innerHTML+="<a class='a2'>"+result[j][2]+"</a></br>";            
-            spotList.innerHTML+="<img src='../img/kp/"+result[j][3]+"' class='photo'><br></a>";
-            spotList.innerHTML+="<br><div class='box25'>"+result[j][4]+"</div></br>";
+            spotListText+="<div id='harf'><a class='a2'>"+result[j][2]+"</a></br><img src='../img/kp/"+result[j][3]+"' class='photo'><br></a><br><div class='box25'>"+result[j][4]+"</div></br>";
             for(var k=5;k<result[j].length-1;++k){
                 if(result[j][k]!=""){
-                    spotList.innerHTML+="<li>"+result[j][k]+"</li></br>";
+                    spotListText+="<li>"+result[j][k]+"</li></br>";
                 }
             }
+            spotListText+="</div>";
+            spotList.innerHTML=spotListText;
         }
+
     }
 }
 getCSV(); 
