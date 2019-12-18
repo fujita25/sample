@@ -549,7 +549,7 @@ header h2{
     position: absolute;
 }
 .pic img {
-    max-width: 100%;
+    width: 100%;
     height: auto;
     opacity:0;
     -moz-animation: imgTrans 30s infinite;
