@@ -542,7 +542,7 @@ header h2{
 /*写真*/
 #stage {
     position: relative;
-    max-width:60%;
+    width:60%;
     margin: 0 auto;
     background:#ddd;
 }
