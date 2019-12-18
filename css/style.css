@@ -525,10 +525,10 @@ header h1{
     padding-bottom: 1.5%; /*文字下部に余白*/
     padding-left: 3%; /*文字左側に余白*/
     padding-right: 3%; /*文字右側に余白*/
-    margin-top: 4.5%;
+    margin-top: 3%;
     margin-bottom: 3%;
-    margin-left:2.5%;
-    margin-right:2.5%;
+    margin-left:4%;
+    margin-right:4%;
     border:1px solid #313131; /*文字の周りに線を描く*/
     letter-spacing: 3px; /*文字と文字の間隔をあける*/
     font-weight:400; /*文字の太さの変更*/
