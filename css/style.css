@@ -544,12 +544,13 @@ header h2{
     max-width:60%;
     margin: 0 auto;
     background:#ddd;
-    text-align: center;
+    
 }
 .pic {
     position: absolute;
 }
 .pic img {
+    text-align: center;
     width: 100%;
     height: auto;
     opacity:0;
