@@ -1,6 +1,6 @@
 body {
     background-image: url("");
-    background-size: contain;
+    background-size: auto;
 }
 body a{
     text-decoration: none;
@@ -550,8 +550,7 @@ header h2{
     position: absolute;
 }
 .pic img {
-    text-align: center;
-    width: 100%;
+    max-width: 100%;
     height: auto;
     opacity:0;
     -moz-animation: imgTrans 30s infinite;
