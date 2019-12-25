@@ -551,6 +551,8 @@ header h2{
     text-align: center;
 }
 .pic img {
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
     width: 100%;
     height: auto;
