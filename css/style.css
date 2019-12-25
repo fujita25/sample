@@ -548,6 +548,7 @@ header h2{
 }
 .pic {
     position: absolute;
+    text-align: center;
 }
 .pic img {
     text-align: center;
