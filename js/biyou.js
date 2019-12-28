@@ -22,7 +22,7 @@ function convertCSVtoArray(str){ // 読み込んだCSVデータが文字列と�
     }
  
     var spotList=document.getElementById("main");
-    var spotListText;
+    var spotListText=('');
     for(var j=1;j<result.length;++j){
         if(result[j][1]=="美容"){
             spotListText+="<div id='harf'><a class='a2'>"+result[j][2]+"</a></br><img src='../img/kp/"+result[j][3]+"' class='photo'><br></a><br><div class='box25'>"+result[j][4]+"</div></br>";
