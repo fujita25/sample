@@ -732,7 +732,7 @@ header h1 {
 
 
 /*-- pc版表示CSS  -------------------------------------------*/
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 768px) {
   HTML, body {
     height: 100%;
     width: 100%;
@@ -947,7 +947,7 @@ header h1 {
   #topk {
     float: left;
     width: 30%;
-    margin-left: 2em;
+    margin-left: 4%;
     background-color: #ffff93;
     /*背景色の指定*/
     border-radius: 0px 0px 0px 0px;
@@ -969,7 +969,7 @@ header h1 {
   #middlek {
     float: left;
     width: 30%;
-    margin-left: 0.5em;
+    margin-left: 0;
     background-color: #ffff93;
     /*背景色の指定*/
     border-radius: 0px 0px 0px 0px;
@@ -991,7 +991,7 @@ header h1 {
   #bottomk {
     float: left;
     width: 30%;
-    margin-left: 0.5em;
+    margin-left: 0;
     background-color: #ffff93;
     /*背景色の指定*/
     border-radius: 0px 0px 0px 0px;
@@ -1014,7 +1014,7 @@ header h1 {
   #top2 {
     float: left;
     width: 30%;
-    margin-left: 2em;
+    margin-left: 4%;
     background-color: #ffadad;
     /*背景色の指定*/
     border-radius: 0px 0px 0px 0px;
@@ -1036,7 +1036,7 @@ header h1 {
   #middletai {
     float: left;
     width: 30%;
-    margin-left: 0.5em;
+    margin-left: 0;
     background-color: #ffadad;
     /*背景色の指定*/
     border-radius: 0px 0px 0px 0px;
@@ -1058,7 +1058,7 @@ header h1 {
   #bottomtai {
     float: left;
     width: 30%;
-    margin-left: 0.5em;
+    margin-left: 0;
     background-color: #ffadad;
     /*背景色の指定*/
     border-radius: 0px 0px 0px 0px;
@@ -1081,7 +1081,7 @@ header h1 {
   #topmati {
     float: left;
     width: 30%;
-    margin-left: 2em;
+    margin-left: 4%;
     background-color: #c1ffff;
     /*背景色の指定*/
     border-radius: 0px 0px 0px 0px;
@@ -1103,7 +1103,7 @@ header h1 {
   #middlemati {
     float: left;
     width: 30%;
-    margin-left: 0.5em;
+    margin-left: 0;
     background-color: #c1ffff;
     /*背景色の指定*/
     border-radius: 0px 0px 0px 0px;
@@ -1125,7 +1125,7 @@ header h1 {
   #bottommati {
     float: left;
     width: 30%;
-    margin-left: 0.5em;
+    margin-left: 0;
     background-color: #c1ffff;
     /*背景色の指定*/
     border-radius: 0px 0px 0px 0px;
@@ -1148,7 +1148,7 @@ header h1 {
   #topj {
     float: left;
     width: 30%;
-    margin-left: 2em;
+    margin-left: 4%;
     background-color: #ffe0ff;
     /*背景色の指定*/
     border-radius: 0px 0px 0px 0px;
@@ -1170,7 +1170,7 @@ header h1 {
   #middlej {
     float: left;
     width: 30%;
-    margin-left: 0.5em;
+    margin-left: 0;
     background-color: #ffe0ff;
     /*背景色の指定*/
     border-radius: 0px 0px 0px 0px;
@@ -1192,7 +1192,7 @@ header h1 {
   #bottomj {
     float: left;
     width: 30%;
-    margin-left: 0.5em;
+    margin-left: 0;
     background-color: #ffe0ff;
     /*背景色の指定*/
     border-radius: 0px 0px 0px 0px;
@@ -1343,8 +1343,8 @@ header h1 {
     border: dashed 2px white;
     padding: 0.2em 0.5em;
     color: #454545;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 6%;
+    margin-right: 6%;
   }
 
   .box25:after {
