@@ -969,7 +969,7 @@ header h1 {
   #middlek {
     float: left;
     width: 30%;
-    margin-left: 0;
+    margin-left: none;
     background-color: #ffff93;
     /*背景色の指定*/
     border-radius: 0px 0px 0px 0px;
@@ -991,7 +991,7 @@ header h1 {
   #bottomk {
     float: left;
     width: 30%;
-    margin-left: 0;
+    margin-left: none;
     background-color: #ffff93;
     /*背景色の指定*/
     border-radius: 0px 0px 0px 0px;
@@ -1036,7 +1036,7 @@ header h1 {
   #middletai {
     float: left;
     width: 30%;
-    margin-left: 0;
+    margin-left: none;
     background-color: #ffadad;
     /*背景色の指定*/
     border-radius: 0px 0px 0px 0px;
@@ -1058,7 +1058,7 @@ header h1 {
   #bottomtai {
     float: left;
     width: 30%;
-    margin-left: 0;
+    margin-left: none;
     background-color: #ffadad;
     /*背景色の指定*/
     border-radius: 0px 0px 0px 0px;
