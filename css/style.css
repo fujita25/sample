@@ -246,7 +246,7 @@ header h1 {
   /*フォントサイズの調整*/
   letter-spacing: 0.3em;
   /*文字と文字の間隔をあける*/
-  line-height: 250px;
+  line-height: 200px;
   /*行間の指定（ブランディングの高さを決める）*/
   padding-right: 0%;
   /*文字の左側に余白をあける*/
@@ -319,7 +319,7 @@ header h1 {
   /*フォントサイズの調整*/
   letter-spacing: 0.1em;
   /*文字と文字の間隔をあける*/
-  line-height: 250px;
+  line-height: 200px;
   /*行間の指定（ブランディングの高さを決める）*/
   padding-right: 0%;
   /*文字の左側に余白をあける*/
@@ -339,7 +339,7 @@ header h1 {
   /*フォントサイズの調整*/
   letter-spacing: 0.3em;
   /*文字と文字の間隔をあける*/
-  line-height: 250px;
+  line-height: 200px;
   /*行間の指定（ブランディングの高さを決める）*/
   padding-right: 0%;
   /*文字の左側に余白をあける*/
@@ -357,7 +357,7 @@ header h1 {
   /*フォントサイズの調整*/
   letter-spacing: 0.3em;
   /*文字と文字の間隔をあける*/
-  line-height: 250px;
+  line-height: 200px;
   /*行間の指定（ブランディングの高さを決める）*/
   padding-right: 0%;
   /*文字の左側に余白をあける*/
@@ -375,7 +375,7 @@ header h1 {
   /*フォントサイズの調整*/
   letter-spacing: 0.1em;
   /*文字と文字の間隔をあける*/
-  line-height: 250px;
+  line-height: 200px;
   /*行間の指定（ブランディングの高さを決める）*/
   padding-right: 0%;
   /*文字の左側に余白をあける*/
@@ -394,7 +394,7 @@ header h1 {
   /*フォントサイズの調整*/
   letter-spacing: 0.4em;
   /*文字と文字の間隔をあける*/
-  line-height: 250px;
+  line-height: 200px;
   /*行間の指定（ブランディングの高さを決める）*/
   padding-right: 0%;
   /*文字の左側に余白をあける*/
@@ -412,13 +412,31 @@ header h1 {
   /*フォントサイズの調整*/
   letter-spacing: 0.3em;
   /*文字と文字の間隔をあける*/
-  line-height: 250px;
+  line-height: 200px;
   /*行間の指定（ブランディングの高さを決める）*/
   padding-right: 0%;
   /*文字の左側に余白をあける*/
   text-decoration: none;
 }
+#bottommati {
+  margin: 0.5em;
 
+  /*背景色の指定*/
+  border-radius: 25px 25px 25px 25px;
+  /*おまじない*/
+}
+
+#bottommati a {
+  font-size: 120%;
+  /*フォントサイズの調整*/
+  letter-spacing: 0.4em;
+  /*文字と文字の間隔をあける*/
+  line-height: 200px;
+  /*行間の指定（ブランディングの高さを決める）*/
+  padding-right: 0%;
+  /*文字の左側に余白をあける*/
+  text-decoration: none;
+}
 
 /*体験のパラグライダー*/
 #top2 {
@@ -433,7 +451,7 @@ header h1 {
   /*フォントサイズの調整*/
   letter-spacing: 0.1em;
   /*文字と文字の間隔をあける*/
-  line-height: 250px;
+  line-height: 200px;
   /*行間の指定（ブランディングの高さを決める）*/
   padding-right: 0%;
   /*文字の左側に余白をあける*/
@@ -451,26 +469,12 @@ header h1 {
   /*フォントサイズの調整*/
   letter-spacing: 0.3em;
   /*文字と文字の間隔をあける*/
-  line-height: 250px;
+  line-height: 200px;
   /*行間の指定（ブランディングの高さを決める）*/
   padding-right: 0%;
   /*文字の左側に余白をあける*/
   text-decoration: none;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #bottomtai {
   margin: 0.5em;
 
@@ -483,27 +487,7 @@ header h1 {
   /*フォントサイズの調整*/
   letter-spacing: 0.1em;
   /*文字と文字の間隔をあける*/
-  line-height: 250px;
-  /*行間の指定（ブランディングの高さを決める）*/
-  padding-right: 0%;
-  /*文字の左側に余白をあける*/
-  text-decoration: none;
-}
-
-#bottommati {
-  margin: 0.5em;
-
-  /*背景色の指定*/
-  border-radius: 25px 25px 25px 25px;
-  /*おまじない*/
-}
-
-#bottommati a {
-  font-size: 120%;
-  /*フォントサイズの調整*/
-  letter-spacing: 0.4em;
-  /*文字と文字の間隔をあける*/
-  line-height: 250px;
+  line-height: 200px;
   /*行間の指定（ブランディングの高さを決める）*/
   padding-right: 0%;
   /*文字の左側に余白をあける*/
