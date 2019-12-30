@@ -4,7 +4,7 @@ HTML, body {
 }
 
 body {
-  background-image: url("");
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQUZrmthcScWqyYethmeauaqobrqVoeWE8352dNz8eFRZI-aKdY");
   background-size: auto;
 }
 
@@ -180,32 +180,67 @@ header h1 {
 /*3の色の選択*/
 #top {
   margin: 0.1em;
-  background-color: #D8FF99;
+
   /*背景色の指定*/
   border-radius: 25px 25px 25px 25px;
   /*おまじない*/
 }
-
 #top a {
   font-size: 120%;
   /*フォントサイズの調整*/
   letter-spacing: 0.1em;
   /*文字と文字の間隔をあける*/
-  line-height: 250px;
+  line-height: 200px;
+  /*行間の指定（ブランディングの高さを決める）*/
+  padding-right: 0%;
+  /*文字の左側に余白をあける*/
+  text-decoration: none;
+}
+#middle {
+  margin: 0.5em;
+
+  /*背景色の指定*/
+  border-radius: 25px 25px 25px 25px;
+  /*おまじない*/
+}
+#middle a {
+  font-size: 120%;
+  /*フォントサイズの調整*/
+  letter-spacing: 0.5em;
+  /*文字と文字の間隔をあける*/
+  line-height: 200px;
+  /*行間の指定（ブランディングの高さを決める）*/
+  padding-right: 0%;
+  /*文字の左側に余白をあける*/
+  text-decoration: none;
+}
+#bottom {
+  margin: 0.5em;
+
+  /*背景色の指定*/
+  border-radius: 25px 25px 25px 25px;
+  /*おまじない*/
+}
+#bottom a {
+  font-size: 120%;
+  /*フォントサイズの調整*/
+  letter-spacing: 0.1em;
+  /*文字と文字の間隔をあける*/
+  line-height: 200px;
   /*行間の指定（ブランディングの高さを決める）*/
   padding-right: 0%;
   /*文字の左側に余白をあける*/
   text-decoration: none;
 }
 
+
 #top1 {
   margin: 0.5em;
-  background-color: #D8FF99;
+
   /*背景色の指定*/
   border-radius: 25px 25px 25px 25px;
   /*おまじない*/
 }
-
 #top1 a {
   font-size: 120%;
   /*フォントサイズの調整*/
@@ -220,208 +255,60 @@ header h1 {
 
 #topk {
   margin: 0.5em;
-  background-color: #ffff93;
+
   /*背景色の指定*/
   border-radius: 25px 25px 25px 25px;
   /*おまじない*/
 }
-
 #topk a {
   font-size: 120%;
   /*フォントサイズの調整*/
   letter-spacing: 0.3em;
   /*文字と文字の間隔をあける*/
-  line-height: 250px;
+  line-height: 200px;
   /*行間の指定（ブランディングの高さを決める）*/
   padding-right: 0%;
   /*文字の左側に余白をあける*/
   text-decoration: none;
 }
-
-#topj {
-  margin: 0.5em;
-  background-color: #ffe0ff;
-  /*背景色の指定*/
-  border-radius: 25px 25px 25px 25px;
-  /*おまじない*/
-}
-
-#topj a {
-  font-size: 120%;
-  /*フォントサイズの調整*/
-  letter-spacing: 0.3em;
-  /*文字と文字の間隔をあける*/
-  line-height: 250px;
-  /*行間の指定（ブランディングの高さを決める）*/
-  padding-right: 0%;
-  /*文字の左側に余白をあける*/
-  text-decoration: none;
-}
-
-#topmati {
-  margin: 0.5em;
-  background-color: #c1ffff;
-  /*背景色の指定*/
-  border-radius: 25px 25px 25px 25px;
-  /*おまじない*/
-}
-
-#topmati a {
-  font-size: 120%;
-  /*フォントサイズの調整*/
-  letter-spacing: 0.4em;
-  /*文字と文字の間隔をあける*/
-  line-height: 250px;
-  /*行間の指定（ブランディングの高さを決める）*/
-  padding-right: 0%;
-  /*文字の左側に余白をあける*/
-  text-decoration: none;
-}
-
-/*体験のパラグライダー*/
-#top2 {
-  margin: 0.5em;
-  background-color: #ffadad;
-  /*背景色の指定*/
-  border-radius: 25px 25px 25px 25px;
-  /*おまじない*/
-}
-
-#top2 a {
-  font-size: 90%;
-  /*フォントサイズの調整*/
-  letter-spacing: 0.1em;
-  /*文字と文字の間隔をあける*/
-  line-height: 250px;
-  /*行間の指定（ブランディングの高さを決める）*/
-  padding-right: 0%;
-  /*文字の左側に余白をあける*/
-  text-decoration: none;
-}
-
-#middle {
-  margin: 0.5em;
-  background-color: #D8FF99;
-  /*背景色の指定*/
-  border-radius: 25px 25px 25px 25px;
-  /*おまじない*/
-}
-
-#middle a {
-  font-size: 120%;
-  /*フォントサイズの調整*/
-  letter-spacing: 0.5em;
-  /*文字と文字の間隔をあける*/
-  line-height: 250px;
-  /*行間の指定（ブランディングの高さを決める）*/
-  padding-right: 0%;
-  /*文字の左側に余白をあける*/
-  text-decoration: none;
-}
-
 #middlek {
   margin: 0.5em;
-  background-color: #ffff93;
+  
   /*背景色の指定*/
   border-radius: 25px 25px 25px 25px;
   /*おまじない*/
 }
-
 #middlek a {
   font-size: 120%;
   /*フォントサイズの調整*/
   letter-spacing: 0.2em;
   /*文字と文字の間隔をあける*/
-  line-height: 250px;
+  line-height: 200px;
   /*行間の指定（ブランディングの高さを決める）*/
   padding-right: 0%;
   /*文字の左側に余白をあける*/
   text-decoration: none;
 }
-
-#middlej {
+#middlek {
   margin: 0.5em;
-  background-color: #ffe0ff;
+  
   /*背景色の指定*/
   border-radius: 25px 25px 25px 25px;
   /*おまじない*/
 }
-
-#middlej a {
+#middlek a {
   font-size: 120%;
   /*フォントサイズの調整*/
-  letter-spacing: 0.3em;
+  letter-spacing: 0.2em;
   /*文字と文字の間隔をあける*/
-  line-height: 250px;
+  line-height: 200px;
   /*行間の指定（ブランディングの高さを決める）*/
   padding-right: 0%;
   /*文字の左側に余白をあける*/
   text-decoration: none;
 }
-
-#middletai {
-  margin: 0.5em;
-  background-color: #ffadad;
-  /*背景色の指定*/
-  border-radius: 25px 25px 25px 25px;
-  /*おまじない*/
-}
-
-#middletai a {
-  font-size: 120%;
-  /*フォントサイズの調整*/
-  letter-spacing: 0.3em;
-  /*文字と文字の間隔をあける*/
-  line-height: 250px;
-  /*行間の指定（ブランディングの高さを決める）*/
-  padding-right: 0%;
-  /*文字の左側に余白をあける*/
-  text-decoration: none;
-}
-
-#middlemati {
-  margin: 0.5em;
-  background-color: #c1ffff;
-  /*背景色の指定*/
-  border-radius: 25px 25px 25px 25px;
-  /*おまじない*/
-}
-
-#middlemati a {
-  font-size: 120%;
-  /*フォントサイズの調整*/
-  letter-spacing: 0.3em;
-  /*文字と文字の間隔をあける*/
-  line-height: 250px;
-  /*行間の指定（ブランディングの高さを決める）*/
-  padding-right: 0%;
-  /*文字の左側に余白をあける*/
-  text-decoration: none;
-}
-
-#bottom {
-  margin: 0.5em;
-  background-color: #D8FF99;
-  /*背景色の指定*/
-  border-radius: 25px 25px 25px 25px;
-  /*おまじない*/
-}
-
-#bottom a {
-  font-size: 120%;
-  /*フォントサイズの調整*/
-  letter-spacing: 0.1em;
-  /*文字と文字の間隔をあける*/
-  line-height: 250px;
-  /*行間の指定（ブランディングの高さを決める）*/
-  padding-right: 0%;
-  /*文字の左側に余白をあける*/
-  text-decoration: none;
-}
-
 #bottomk {
   margin: 0.5em;
-  background-color: #ffff93;
   /*背景色の指定*/
   border-radius: 25px 25px 25px 25px;
   /*おまじない*/
@@ -439,14 +326,50 @@ header h1 {
   text-decoration: none;
 }
 
-#bottomj {
+
+#topj {
   margin: 0.5em;
-  background-color: #ffe0ff;
+
   /*背景色の指定*/
   border-radius: 25px 25px 25px 25px;
   /*おまじない*/
 }
+#topj a {
+  font-size: 120%;
+  /*フォントサイズの調整*/
+  letter-spacing: 0.3em;
+  /*文字と文字の間隔をあける*/
+  line-height: 250px;
+  /*行間の指定（ブランディングの高さを決める）*/
+  padding-right: 0%;
+  /*文字の左側に余白をあける*/
+  text-decoration: none;
+}
+#middlej {
+  margin: 0.5em;
 
+  /*背景色の指定*/
+  border-radius: 25px 25px 25px 25px;
+  /*おまじない*/
+}
+#middlej a {
+  font-size: 120%;
+  /*フォントサイズの調整*/
+  letter-spacing: 0.3em;
+  /*文字と文字の間隔をあける*/
+  line-height: 250px;
+  /*行間の指定（ブランディングの高さを決める）*/
+  padding-right: 0%;
+  /*文字の左側に余白をあける*/
+  text-decoration: none;
+}
+#bottomj {
+  margin: 0.5em;
+
+  /*背景色の指定*/
+  border-radius: 25px 25px 25px 25px;
+  /*おまじない*/
+}
 #bottomj a {
   font-size: 120%;
   /*フォントサイズの調整*/
@@ -459,14 +382,102 @@ header h1 {
   text-decoration: none;
 }
 
-#bottomtai {
+#topmati {
   margin: 0.5em;
-  background-color: #ffadad;
+
   /*背景色の指定*/
   border-radius: 25px 25px 25px 25px;
   /*おまじない*/
 }
+#topmati a {
+  font-size: 120%;
+  /*フォントサイズの調整*/
+  letter-spacing: 0.4em;
+  /*文字と文字の間隔をあける*/
+  line-height: 250px;
+  /*行間の指定（ブランディングの高さを決める）*/
+  padding-right: 0%;
+  /*文字の左側に余白をあける*/
+  text-decoration: none;
+}
+#middlemati {
+  margin: 0.5em;
 
+  /*背景色の指定*/
+  border-radius: 25px 25px 25px 25px;
+  /*おまじない*/
+}
+#middlemati a {
+  font-size: 120%;
+  /*フォントサイズの調整*/
+  letter-spacing: 0.3em;
+  /*文字と文字の間隔をあける*/
+  line-height: 250px;
+  /*行間の指定（ブランディングの高さを決める）*/
+  padding-right: 0%;
+  /*文字の左側に余白をあける*/
+  text-decoration: none;
+}
+
+
+/*体験のパラグライダー*/
+#top2 {
+  margin: 0.5em;
+
+  /*背景色の指定*/
+  border-radius: 25px 25px 25px 25px;
+  /*おまじない*/
+}
+#top2 a {
+  font-size: 90%;
+  /*フォントサイズの調整*/
+  letter-spacing: 0.1em;
+  /*文字と文字の間隔をあける*/
+  line-height: 250px;
+  /*行間の指定（ブランディングの高さを決める）*/
+  padding-right: 0%;
+  /*文字の左側に余白をあける*/
+  text-decoration: none;
+}
+#middletai {
+  margin: 0.5em;
+
+  /*背景色の指定*/
+  border-radius: 25px 25px 25px 25px;
+  /*おまじない*/
+}
+#middletai a {
+  font-size: 120%;
+  /*フォントサイズの調整*/
+  letter-spacing: 0.3em;
+  /*文字と文字の間隔をあける*/
+  line-height: 250px;
+  /*行間の指定（ブランディングの高さを決める）*/
+  padding-right: 0%;
+  /*文字の左側に余白をあける*/
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#bottomtai {
+  margin: 0.5em;
+
+  /*背景色の指定*/
+  border-radius: 25px 25px 25px 25px;
+  /*おまじない*/
+}
 #bottomtai a {
   font-size: 120%;
   /*フォントサイズの調整*/
@@ -481,7 +492,7 @@ header h1 {
 
 #bottommati {
   margin: 0.5em;
-  background-color: #c1ffff;
+
   /*背景色の指定*/
   border-radius: 25px 25px 25px 25px;
   /*おまじない*/
@@ -501,7 +512,7 @@ header h1 {
 
 #gamen {
   margin: 0.5em;
-  background-color: #ffce9e;
+  
   /*背景色の指定*/
   border-radius: 25px 25px 25px 25px;
   /*おまじない*/
@@ -509,7 +520,7 @@ header h1 {
 
 #gamen2 {
   margin: 0.5em;
-  background-color: #e5ffcc;
+
   /*背景色の指定*/
   border-radius: 25px 25px 25px 25px;
   /*おまじない*/
@@ -737,7 +748,6 @@ header h1 {
     height: 100%;
     width: 100%;
   }
-
   body a {
     text-decoration: none;
   }
@@ -991,7 +1001,7 @@ header h1 {
   #bottomk {
     float: left;
     width: 30%;
-    margin-left: none;
+    margin-right: none;
     background-color: #ffff93;
     /*背景色の指定*/
     border-radius: 0px 0px 0px 0px;
@@ -1036,7 +1046,7 @@ header h1 {
   #middletai {
     float: left;
     width: 30%;
-    margin-left: none;
+    margin-left: 0;
     background-color: #ffadad;
     /*背景色の指定*/
     border-radius: 0px 0px 0px 0px;
@@ -1058,7 +1068,7 @@ header h1 {
   #bottomtai {
     float: left;
     width: 30%;
-    margin-left: none;
+    margin-left: 0;
     background-color: #ffadad;
     /*背景色の指定*/
     border-radius: 0px 0px 0px 0px;
