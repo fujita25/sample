@@ -736,6 +736,29 @@ header h1 {
   color: #FF6928;
 }
 
+/*ＨＰのボタン*/
+.btn-social-long-hp {
+  color: #FFF;/*文字・アイコン色*/
+  border-radius: 7%;/*角丸に*/
+  display: inline-block;
+  height: 7%;/*高さ*/
+  width: 30%;/*幅*/
+  text-align: center;/*中身を中央寄せ*/
+  font-size: 100%;/*文字のサイズ*/
+  line-height: 300%;/*高さと合わせる*/
+  background: #33ccff;
+  overflow: hidden;/*はみ出た部分を隠す*/
+  text-decoration:none;/*下線は消す*/
+}
+.btn-social-long-hp .fa-twitter {
+  text-shadow: 2px 2px 0px #66ccff;
+  font-size: 30px;
+}
+.btn-social-long-hp span {
+  display:inline-block;
+  transition: .5s;
+}
+
 /*twitterボタン*/
 .btn-social-long-twitter {
   color: #FFF;/*文字・アイコン色*/
@@ -762,7 +785,7 @@ header h1 {
 /*facebookのボタン*/
 .btn-social-long-facebook {
   color: #FFF;/*文字・アイコン色*/
-  border-radius: 7px;/*角丸に*/
+  border-radius: 7%;/*角丸に*/
   display: inline-block;
   height: 7%;/*高さ*/
   width: 35%;/*幅*/
@@ -1592,4 +1615,77 @@ header h1 {
     border-style: dotted;
     color: #FF6928;
   }
+}
+/*ＨＰのボタン*/
+.btn-social-long-hp {
+  color: #FFF;/*文字・アイコン色*/
+  border-radius: 0%;/*角丸に*/
+  display: inline-block;
+  margin-left: 8%;
+  margin-right: 3%;
+  height: 7%;/*高さ*/
+  width: 25%;/*幅*/
+  text-align: center;/*中身を中央寄せ*/
+  font-size: 200%;/*文字のサイズ*/
+  line-height: 300%;/*高さと合わせる*/
+  background: #33ccff;
+  overflow: hidden;/*はみ出た部分を隠す*/
+  text-decoration:none;/*下線は消す*/
+}
+.btn-social-long-hp .fa-twitter {
+  text-shadow: 2px 2px 0px #66ccff;
+  font-size: 30px;
+}
+.btn-social-long-hp span {
+  display:inline-block;
+  transition: .5s;
+}
+
+/*twitterボタン*/
+.btn-social-long-twitter {
+  color: #FFF;/*文字・アイコン色*/
+  border-radius: 0%;/*角丸に*/
+  display: inline-block;
+  margin-right: 3%;
+  height: 7%;/*高さ*/
+  width: 25%;/*幅*/
+  text-align: center;/*中身を中央寄せ*/
+  font-size: 200%;/*文字のサイズ*/
+  line-height: 300%;/*高さと合わせる*/
+  background: #1da1f3;
+  overflow: hidden;/*はみ出た部分を隠す*/
+  text-decoration:none;/*下線は消す*/
+}
+.btn-social-long-twitter .fa-twitter {
+  text-shadow: 2px 2px 0px #4287d6;
+  font-size: 30px;
+}
+.btn-social-long-twitter span {
+  display:inline-block;
+  transition: .5s;
+}
+
+/*facebookのボタン*/
+.btn-social-long-facebook {
+  color: #FFF;/*文字・アイコン色*/
+  border-radius: 0%;/*角丸に*/
+  display: inline-block;
+  margin-right: 8%;
+  height: 7%;/*高さ*/
+  width: 25%;/*幅*/
+  text-align: center;/*中身を中央寄せ*/
+  font-size: 200%;/*文字のサイズ*/
+  line-height: 300%;/*高さと合わせる*/
+  background: #4966a0;
+  overflow: hidden;/*はみ出た部分を隠す*/
+  text-decoration:none;/*下線は消す*/
+}
+.btn-social-long-facebook .fa-facebook {
+  text-shadow: 2px 2px 1px #224282;
+  font-size: 30px;
+}
+.btn-social-long-facebook span {
+  /*テキスト*/
+  display:inline-block;
+  transition: .5s;
 }
