@@ -246,7 +246,7 @@ header h1 {
   /*フォントサイズの調整*/
   letter-spacing: 0.3em;
   /*文字と文字の間隔をあける*/
-  line-height: 200px;
+  line-height: 250px;
   /*行間の指定（ブランディングの高さを決める）*/
   padding-right: 0%;
   /*文字の左側に余白をあける*/
@@ -319,7 +319,7 @@ header h1 {
   /*フォントサイズの調整*/
   letter-spacing: 0.1em;
   /*文字と文字の間隔をあける*/
-  line-height: 200px;
+  line-height: 250px;
   /*行間の指定（ブランディングの高さを決める）*/
   padding-right: 0%;
   /*文字の左側に余白をあける*/
@@ -339,7 +339,7 @@ header h1 {
   /*フォントサイズの調整*/
   letter-spacing: 0.3em;
   /*文字と文字の間隔をあける*/
-  line-height: 200px;
+  line-height: 250px;
   /*行間の指定（ブランディングの高さを決める）*/
   padding-right: 0%;
   /*文字の左側に余白をあける*/
@@ -357,7 +357,7 @@ header h1 {
   /*フォントサイズの調整*/
   letter-spacing: 0.3em;
   /*文字と文字の間隔をあける*/
-  line-height: 200px;
+  line-height: 250px;
   /*行間の指定（ブランディングの高さを決める）*/
   padding-right: 0%;
   /*文字の左側に余白をあける*/
@@ -375,7 +375,7 @@ header h1 {
   /*フォントサイズの調整*/
   letter-spacing: 0.1em;
   /*文字と文字の間隔をあける*/
-  line-height: 200px;
+  line-height: 250px;
   /*行間の指定（ブランディングの高さを決める）*/
   padding-right: 0%;
   /*文字の左側に余白をあける*/
@@ -394,7 +394,7 @@ header h1 {
   /*フォントサイズの調整*/
   letter-spacing: 0.4em;
   /*文字と文字の間隔をあける*/
-  line-height: 200px;
+  line-height: 250px;
   /*行間の指定（ブランディングの高さを決める）*/
   padding-right: 0%;
   /*文字の左側に余白をあける*/
@@ -412,31 +412,13 @@ header h1 {
   /*フォントサイズの調整*/
   letter-spacing: 0.3em;
   /*文字と文字の間隔をあける*/
-  line-height: 200px;
+  line-height: 250px;
   /*行間の指定（ブランディングの高さを決める）*/
   padding-right: 0%;
   /*文字の左側に余白をあける*/
   text-decoration: none;
 }
-#bottommati {
-  margin: 0.5em;
 
-  /*背景色の指定*/
-  border-radius: 25px 25px 25px 25px;
-  /*おまじない*/
-}
-
-#bottommati a {
-  font-size: 120%;
-  /*フォントサイズの調整*/
-  letter-spacing: 0.4em;
-  /*文字と文字の間隔をあける*/
-  line-height: 200px;
-  /*行間の指定（ブランディングの高さを決める）*/
-  padding-right: 0%;
-  /*文字の左側に余白をあける*/
-  text-decoration: none;
-}
 
 /*体験のパラグライダー*/
 #top2 {
@@ -451,7 +433,7 @@ header h1 {
   /*フォントサイズの調整*/
   letter-spacing: 0.1em;
   /*文字と文字の間隔をあける*/
-  line-height: 200px;
+  line-height: 250px;
   /*行間の指定（ブランディングの高さを決める）*/
   padding-right: 0%;
   /*文字の左側に余白をあける*/
@@ -469,12 +451,26 @@ header h1 {
   /*フォントサイズの調整*/
   letter-spacing: 0.3em;
   /*文字と文字の間隔をあける*/
-  line-height: 200px;
+  line-height: 250px;
   /*行間の指定（ブランディングの高さを決める）*/
   padding-right: 0%;
   /*文字の左側に余白をあける*/
   text-decoration: none;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #bottomtai {
   margin: 0.5em;
 
@@ -487,7 +483,27 @@ header h1 {
   /*フォントサイズの調整*/
   letter-spacing: 0.1em;
   /*文字と文字の間隔をあける*/
-  line-height: 200px;
+  line-height: 250px;
+  /*行間の指定（ブランディングの高さを決める）*/
+  padding-right: 0%;
+  /*文字の左側に余白をあける*/
+  text-decoration: none;
+}
+
+#bottommati {
+  margin: 0.5em;
+
+  /*背景色の指定*/
+  border-radius: 25px 25px 25px 25px;
+  /*おまじない*/
+}
+
+#bottommati a {
+  font-size: 120%;
+  /*フォントサイズの調整*/
+  letter-spacing: 0.4em;
+  /*文字と文字の間隔をあける*/
+  line-height: 250px;
   /*行間の指定（ブランディングの高さを決める）*/
   padding-right: 0%;
   /*文字の左側に余白をあける*/
@@ -715,11 +731,64 @@ header h1 {
   border-radius: 3px;
   transition: .4s;
 }
-
 .big:hover {
   border-style: dotted;
   color: #FF6928;
 }
+
+/*twitterボタン*/
+.btn-social-long-twitter {
+  color: #FFF;/*文字・アイコン色*/
+  border-radius: 7%;/*角丸に*/
+  display: inline-block;
+  height: 7%;/*高さ*/
+  width: 30%;/*幅*/
+  text-align: center;/*中身を中央寄せ*/
+  font-size: 100%;/*文字のサイズ*/
+  line-height: 300%;/*高さと合わせる*/
+  background: #1da1f3;
+  overflow: hidden;/*はみ出た部分を隠す*/
+  text-decoration:none;/*下線は消す*/
+}
+.btn-social-long-twitter .fa-twitter {
+  text-shadow: 2px 2px 0px #4287d6;
+  font-size: 30px;
+}
+.btn-social-long-twitter span {
+  display:inline-block;
+  transition: .5s;
+}
+
+/*facebookのボタン*/
+.btn-social-long-facebook {
+  color: #FFF;/*文字・アイコン色*/
+  border-radius: 7px;/*角丸に*/
+  display: inline-block;
+  height: 7%;/*高さ*/
+  width: 35%;/*幅*/
+  text-align: center;/*中身を中央寄せ*/
+  font-size: 100%;/*文字のサイズ*/
+  line-height: 300%;/*高さと合わせる*/
+  background: #4966a0;
+  overflow: hidden;/*はみ出た部分を隠す*/
+  text-decoration:none;/*下線は消す*/
+}
+.btn-social-long-facebook .fa-facebook {
+  text-shadow: 2px 2px 1px #224282;
+  font-size: 30px;
+}
+.btn-social-long-facebook span {
+  /*テキスト*/
+  display:inline-block;
+  transition: .5s;
+}
+
+
+
+
+
+
+
 
 
 
