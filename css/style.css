@@ -1621,7 +1621,7 @@ header h1 {
   color: #FFF;/*文字・アイコン色*/
   border-radius: 0%;/*角丸に*/
   display: inline-block;
-  margin-left: 9%;
+  margin-left: 8%;
   margin-right: 3%;
   height: 7%;/*高さ*/
   width: 25%;/*幅*/
@@ -1670,7 +1670,6 @@ header h1 {
   color: #FFF;/*文字・アイコン色*/
   border-radius: 0%;/*角丸に*/
   display: inline-block;
-  margin-right: 8%;
   height: 7%;/*高さ*/
   width: 25%;/*幅*/
   text-align: center;/*中身を中央寄せ*/
